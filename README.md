@@ -1,10 +1,10 @@
-# 🛡️ SOC Home Lab
+# SOC Home Lab
 
 Laboratorio práctico de ciberseguridad y monitorización SOC construido con VirtualBox.
 
 El objetivo de este proyecto es simular un entorno básico de un SOC (Security Operations Center), utilizando un equipo atacante, una máquina víctima y una plataforma de monitorización y detección.
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El laboratorio está compuesto por tres máquinas virtuales:
 
@@ -34,13 +34,13 @@ La red interna del laboratorio utiliza:
                                   Sniffing
 ```
 
-## 👁️ Monitorización de red
+## Monitorización de red
 
 Security Onion cuenta con una interfaz dedicada de sniffing conectada a la red `SOC-LAB` y configurada en modo promiscuo.
 
 Esta configuración permite a Security Onion observar y analizar el tráfico generado dentro del laboratorio sin que el tráfico tenga que atravesar físicamente el sistema de monitorización.
 
-## 🎯 Objetivos del proyecto
+## Objetivos del proyecto
 
 - Generar actividad ofensiva controlada desde Kali Linux.
 - Detectar dicha actividad mediante Security Onion.
@@ -50,11 +50,11 @@ Esta configuración permite a Security Onion observar y analizar el tráfico gen
 - Documentar el proceso de investigación.
 - Elaborar un informe de incidente.
 
-## 🚧 Estado del proyecto
+## Estado del proyecto
 
 **Fase actual:** Laboratorio configurado y preparado para comenzar los escenarios de ataque y detección.
 
-## 🧰 Tecnologías y herramientas
+## Tecnologías y herramientas
 
 - VirtualBox
 - Kali Linux
